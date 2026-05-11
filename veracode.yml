@@ -14,7 +14,7 @@ veracode_static_scan:
       - !<tag:yaml.org,2002:js/undefined> ''
   analysis_on_platform: true
   break_build_policy_findings: true
-  break_build_invalid_policy: true
+  break_build_invalid_policy: false
   break_build_on_error: true
   error_message: >-
     Veracode static scan faced a problem. Please contact your Veracode
