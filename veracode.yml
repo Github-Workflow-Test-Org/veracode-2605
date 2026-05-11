@@ -7,11 +7,11 @@ veracode_static_scan:
     branches_to_exclude:
       - branch-1
   pull_request:
-    trigger: false
+    trigger: true
     action:
       - closed
     target_branch:
-      - default_branch
+      - !<tag:yaml.org,2002:js/undefined> ''
   analysis_on_platform: false
   break_build_policy_findings: false
   break_build_invalid_policy: false
