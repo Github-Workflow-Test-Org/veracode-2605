@@ -1,6 +1,2 @@
-include_repos:
-  - '*'
-
-#Populate the list of repos to skip from running the veracode scan(s) under org or leave it blank or '*' to exclude all
-exclude_repos:
-  - 'veracode'
+include_repos: vulnado
+exclude_repos: '*'
